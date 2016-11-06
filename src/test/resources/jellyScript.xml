@@ -1,0 +1,11 @@
+<JiraJelly xmlns:jira="jelly:com.atlassian.jira.jelly.JiraTagLib"> 
+<jira:CreateProject key="MANGO" name="IE" lead="vm_admin"> 
+<jira:AddVersion name="Version 1.0"/>
+ <jira:AddVersion name="Version 2.0"/>
+ <jira:AddVersion name="Version 3.0"/>
+ <jira:AddComponent name="Component1"/> 
+<jira:AddComponent name="Component2"/> 
+<jira:AddComponent name="Component3"/> 
+ 
+</jira:CreateProject>
+</JiraJelly>
